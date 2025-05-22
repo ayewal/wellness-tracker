@@ -1,12 +1,25 @@
-# React + Vite
+# ✈️ Wellness Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is inspired by Southwest Airlines' internal employee care mission. It allows employees to log daily wellness check-ins including mood, sleep, hydration, and notes.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Firebase (Authentication + Firestore)
+- Vite
+- CSS Modules
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Secure user login with Firebase Auth
+- 📝 Daily check-in form
+- ☁️ Data saved to Firestore
+- 🎨 Friendly UI with Southwest colors
+
+## 📦 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/wellness-tracker.git
+   cd wellness-tracker
+   ```

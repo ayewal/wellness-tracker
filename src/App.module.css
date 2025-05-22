@@ -1,6 +1,23 @@
-/* App.module.css */
+.loginContainer {
+  background-color: #fefefe;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #d92d2f, #ffc72c);
+}
 
-/* App.module.css */
+.toggleText {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.toggleLink {
+  color: #d92d2f;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 .bodyContainer {
   display: flex;
